@@ -1,0 +1,11 @@
+How are the 2 datasets treated, is it the same or different?
+
+DWT is applied to both after they are resampled and made to length 200
+
+2 class problem?
+
+PCA is applied to 4 subbands: A4,D4,D3,D2
+
+Each subband is applied to SVM? how are these results brought back together?
+
+How is it tested for accuracy?

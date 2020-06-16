@@ -1,0 +1,29 @@
+Using data from MIT database
+
+signals, fields = wfdb.rdsamp('100')
+	reads the patient ecg
+	signals - returns multi channel recording
+	fields - returns some annotation data
+		'sig_name' is the 2 channel sources
+
+
+first = []
+second = []
+for i in range(0,1000):
+    first.append(signals[i][0])
+    second.append(signals[i][1])
+
+	can be used to separate the multi channel recordings into 1D arrays
+
+loc = processing.find_local_peaks(first,250)
+loc2 = processing.find_local_peaks(second,250)
+	finds the local peaks
+	input variables: signal, range to look for peak
+	can be used to find spike from heart beat
+
+annotation = wfdb.rdann('101', 'atr', sampto = 1000)
+	reads annotation file
+	print(annotation.sample)
+		shows the indeces where there are annotations
+	print(annotation.symbol)
+		shows the annotation symbols

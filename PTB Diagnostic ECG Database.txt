@@ -1,0 +1,6 @@
+The PTB Diagnostic ECG Database
+Number of Samples: 14552
+Number of Categories: 2
+Sampling Frequency: 125Hz
+Data Source: Physionet's PTB Diagnostic Database
+

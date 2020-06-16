@@ -1,0 +1,24 @@
+Timing and Accuracy Report 
+Training Size: 40000 
+Test Size: 4000 
+C-value: 0.0001
+Train Time: 1623.8430779
+Accuracy: 0.8165
+C-value: 0.001
+Train Time: 3683.99951196
+Accuracy: 0.58625
+C-value: 0.01
+Train Time: 6641.19778085
+Accuracy: 0.44425
+C-value: 0.1
+Train Time: 7511.07805705
+Accuracy: 0.421
+C-value: 1.0
+Train Time: 6378.65722013
+Accuracy: 0.42075
+C-value: 2.0
+Train Time: 9695.5537231
+Accuracy: 0.43425
+C-value: 5.0
+Train Time: 10564.9108782
+Accuracy: 0.4245
